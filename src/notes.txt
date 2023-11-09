@@ -1,0 +1,23 @@
+Assets: Folder with 3 background images 
+
+Components: Folder with files needed for display of carousel
+
+    - App.js: Main application component responsible for rendering both tabs and other content in them
+
+    - App.css: Styling for App.js
+
+    - MatchCarousel.js: Component that render cards. It has 2 possible props, that can be used in the same component:
+        -'max' -> number of cards displayed in carousel. Default value is 10
+        -'sportID' -> id of the sport that cards display. Default value is 0.  
+
+    - MatchCarousel.css: Styling for MatchCarousel.js
+
+    - Card.js: Component that displayes matches and their data
+
+    - Card.css: Styling for Card.js
+
+I did not make any changes to package.json, so all dependencies are the same as when project was created
+
+Known Issues:
+    - Sometimes, when the team name consists of one or more words, the words do not go to a new line properly. 
+This issue tends to occur more frequently when the team name contains a comma.

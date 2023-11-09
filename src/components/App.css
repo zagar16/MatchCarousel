@@ -1,0 +1,32 @@
+.cssTab {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  background-color: #080808;
+  /* padding: 0 20px; */
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+}
+
+.cssTab button {
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 600;
+  color: #e4e4e4;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  margin: 0 10px;
+  padding: 10px;
+  border-bottom: 2px solid transparent;
+}
+
+.cssTab button:hover {
+  color: #adadad;
+  border-bottom: 2px solid #222222;
+}
+
+.padding-top {
+  padding-top: 10px;
+}

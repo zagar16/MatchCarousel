@@ -1,0 +1,163 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-size: 100%;
+}
+
+.image-container {
+  padding: 0;
+  position: relative;
+  display: block;
+  text-align: center;
+  border-radius: 14px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+ .image-text-tournament {
+  position: absolute;
+  top: 2%;
+  left: 50%;
+  white-space: nowrap;
+  transform: translateX(-50%);
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  font-size: 2.7vw;
+} 
+
+.image-text-tournament .gametype {
+  font-size: 16px;
+  font-size: 2.4vw;
+  margin-top: 10px;
+}
+
+.even-longer-text{
+  font-size: 1.5vw;
+}
+
+.long-text {
+  font-size: 2vw;
+}
+
+.short-text {
+  font-size: 2.7vw;
+}
+
+.image-text-score {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  font-size: 6.5vw;
+  margin: 0;
+}
+
+.notstarted {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  font-size: 1.5vw;
+}
+
+.textVS {
+  font-size: 16px;
+  font-size: 2.3vw;
+  margin-bottom: 5px;
+}
+
+.textTime {
+  font-size: 16px;
+  font-size: 2.3vw;
+  margin: 0px;
+}
+
+.textDate {
+  font-size: 16px;
+  font-size: 1.8vw;
+  margin-top: 0px;
+}
+
+.image-teams-left {
+  position: absolute;
+  top: 42%;
+  left: 23%;
+  transform: translateX( -50%);
+  width: 30%;
+}
+
+.image-teams-left img {
+  width: 4vw; 
+  height: auto;
+}
+
+.image-teams-left p {
+  margin-top: 10px;
+  font-size: 16px;
+  font-size: 3vw;
+}
+
+.image-teams-right {
+  position: absolute;
+  top: 42%;
+  left: 77%;
+  transform: translateX( -50%);
+}
+
+.image-teams-right img {
+  width: 4vw; 
+  height: auto;
+} 
+
+.image-teams-right p {
+  margin-top: 10px;
+  font-size: 16px;
+  font-size: 3vw;
+}
+
+.matchstatus {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  background-color: #74bd15;
+  color: white;
+  padding: 0.5vw 2vw;
+  border-radius: 2px;
+  font-weight: bold;
+  transform: translateX(-50%);
+  text-align: center;
+  font-size: 16px;
+  font-size: 1.4vw;
+}
+
+.statusnotstarted {
+  background-color: grey;
+}
+.statusended {
+  background-color: green;
+}
+.statuslive {
+  background-color: #74bd15;
+}
+.carousel-item {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 490px;
+  background-color: #fff;
+}
+
+.match-hide {
+  display: none;
+}
+
+.match-show {
+  display: block;
+}
